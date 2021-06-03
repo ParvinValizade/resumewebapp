@@ -1,0 +1,29 @@
+body{
+    font-size: 20px;
+}
+
+.mycontainer div{
+    margin-bottom: 10px;
+}
+.control_panel {
+    border: 1px solid;
+}
+.control_panel input{
+    color: #20b5cb;
+    border: 1px solid;
+    padding: 5px;
+    margin-top: 2px;
+}
+.control_panel lebel{
+    width: 10%;
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.form_login {
+    left: 50%;
+    top: 50%;
+    margin-left: -25%;
+    position: absolute;
+    margin-top: -25%;
+}
