@@ -29,7 +29,7 @@ public class UserDetailController extends HttpServlet {
             throws ServletException, IOException {
         int id = Integer.valueOf(request.getParameter("id"));
        String action = request.getParameter("action");
-       if (action.equals("Save")) {
+       if (action.equals("update")) {
             String name = request.getParameter("name");
             String surname = request.getParameter("surname");
 

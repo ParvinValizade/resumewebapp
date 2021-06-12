@@ -24,6 +24,10 @@
 </head>
 <body>
 <%
+  User user=(User) session.getAttribute("loggedInUser");
+%>
+<%="Welcome, "+user.getName()%>
+<%
     UserDaoInter userDao = Context.instanceUserDao();
     String name = request.getParameter("name");
     String surname = request.getParameter("surname");

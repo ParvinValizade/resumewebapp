@@ -37,6 +37,11 @@
       <version>7.0</version>
       <type>jar</type>
     </dependency>
+    <dependency>
+      <groupId>at.favre.lib</groupId>
+      <artifactId>bcrypt</artifactId>
+      <version>0.4.1</version>
+    </dependency>
   </dependencies>
 
   <build>

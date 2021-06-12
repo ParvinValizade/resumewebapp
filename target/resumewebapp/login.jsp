@@ -13,6 +13,7 @@
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 </head>
 <body>
+<form action="login" method="POST">
 <div class="container">
     <div class="col-xl-4 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
 
@@ -27,15 +28,15 @@
             <hr>
             <form>
                 <div class="form-group">
-                    <input name="" class="form-control" placeholder="Email or login" type="email">
+                    <input type="email" class="form-control" placeholder="Email or login" name="email">
                 </div> <!-- form-group// -->
                 <div class="form-group">
-                    <input class="form-control" placeholder="******" type="password">
+                    <input type="password" class="form-control" placeholder="******" name="password">
                 </div> <!-- form-group// -->
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <button type="submit" class="btn btn-primary btn-block"> Login  </button>
+                            <button type="submit" class="btn btn-primary btn-block" name="login"> Login  </button>
                         </div> <!-- form-group// -->
                     </div>
                     <div class="col-md-6 text-right">
@@ -48,5 +49,6 @@
 
     </div>
 </div>
+    </form>
 </body>
 </html>
